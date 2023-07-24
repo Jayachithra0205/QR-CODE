@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="icon" href="favicon-32x32.png">
+        <title>QR CODE</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="box">
+            <img src="image-qr-code.png" alt="qr code">
+            <div id="textbox">
+                <h3 id="txt1"><b>Improve your front-end skills by building projects</b></h3>
+                <h3 id="txt2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h3>
+            </div>
+        </div>
+    </body>
+
+    <style>
+        
+        body{
+            background-color: hsl(212, 45%, 89%);
+        }
+        #box{
+            left: 43%;
+            top: 23%;
+            position: absolute;
+            background-color: hsl(0, 0%, 100%);
+            height:400px;
+            width: 240px;
+            border-radius: 15px;
+            
+        }
+        img{
+            height: 220px;
+            width: 220px;
+            border: 10px solid white;
+            border-radius: 22px;
+        }
+        #textbox{
+            
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        #txt1{
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            text-align: center;
+            color: hsl(218, 44%, 22%);
+        }
+        #txt2{
+            font-family: 'Outfit', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            text-align: center;
+            color: hsl(220, 15%, 55%);
+        }
+        #box:hover{
+            box-shadow: 3px 3px 7px black;
+        }
+    </style>
+</html>
